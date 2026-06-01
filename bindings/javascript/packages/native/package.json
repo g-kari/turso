@@ -24,9 +24,9 @@
     "@types/node": "^24.3.1",
     "better-sqlite3": "^12.2.0",
     "drizzle-kit": "^0.31.4",
-    "drizzle-orm": "^0.44.5",
+    "drizzle-orm": "^0.45.2",
     "typescript": "^5.9.2",
-    "vitest": "^3.2.4"
+    "vitest": "^4.1.8"
   },
   "scripts": {
     "napi-build": "napi build --platform --profile release-official --esm --manifest-path ../../Cargo.toml --output-dir .",

@@ -34,8 +34,8 @@
     "@vitest/browser": "^3.2.4",
     "playwright": "^1.55.0",
     "typescript": "^5.9.2",
-    "vite": "^7.1.5",
-    "vitest": "^3.2.4"
+    "vite": "^8.0.16",
+    "vitest": "^4.1.8"
   },
   "scripts": {
     "napi-build": "napi build --features browser --profile release-official --platform --target wasm32-wasip1-threads --no-js --manifest-path ../../Cargo.toml --output-dir . && rm index.d.ts turso.wasi* wasi* browser.js",
